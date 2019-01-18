@@ -79,6 +79,8 @@ print('THE TOTAL PRICE IS: $',round(total_price,2))
 print('THE TAX RATE IS: $', round(.06*total_price,2))
 print('TOTAL AMOUNT OWNED: $', round(1.06*total_price,2))
 print('\n')
+print('-----------------------------')
+
 print('THANK YOU VERY MUCH FOR SHOPPING AT NOTAREAL Supermarket! I HOPE YOU COME BACK SOON!')
 
 
