@@ -1,4 +1,4 @@
-from time import gmtime, strftime
+from datetime import datetime
 
 store_name="NotaReal Supermarket"
 store_website="www.notarealsupermarket.net"
@@ -50,7 +50,7 @@ print('-----------------------------')
 print(store_name)
 print('-----------------------------')
 print(store_website)
-print('Checkout time: ', strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+print('Checkout time: ', datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 print('-----------------------------')
 print('\n')
 
