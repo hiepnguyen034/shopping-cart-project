@@ -50,7 +50,7 @@ print('-----------------------------')
 print(store_name)
 print('-----------------------------')
 print(store_website)
-print('Check out time: ', strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+print('Checkout time: ', strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 print('-----------------------------')
 print('\n')
 
@@ -80,7 +80,6 @@ print('THE TAX RATE IS: $', round(.06*total_price,2))
 print('TOTAL AMOUNT OWNED: $', round(1.06*total_price,2))
 print('\n')
 print('-----------------------------')
-
 print('THANK YOU VERY MUCH FOR SHOPPING AT NOTAREAL Supermarket! I HOPE YOU COME BACK SOON!')
 
 
