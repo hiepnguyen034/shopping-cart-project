@@ -42,23 +42,25 @@ while True:
         print("Please enter a number from 1 to 20 only")
     else:
         product_ids.append(int(item))
-print(product_ids)
+#print(product_ids)
 
 
 print('\n')
+print('-----------------------------')
 print(store_name)
-print('--------------------')
+print('-----------------------------')
 print(store_website)
-print('\n')
 print('Check out time: ', strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+print('-----------------------------')
+print('\n')
+
 #print(products)
 
 #product_ids = [1, 8, 6, 16, 6] # temporary list of valid ids for testing purposes
 
 
-
-print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
-
+print('-----------------------------')
+print('Shopping cart item: ')
 #TODO: perform product look-ups here!
 def name_and_price(id):
     for transaction in range(len(products)):
@@ -72,9 +74,11 @@ for id in product_ids:
     name,price= name_and_price(id)
     print('+ ',name, ' ', price)
     total_price+=price
+print('-----------------------------')
 print('THE TOTAL PRICE IS: $',round(total_price,2))
 print('THE TAX RATE IS: $', round(.06*total_price,2))
 print('TOTAL AMOUNT OWNED: $', round(1.06*total_price,2))
+print('\n')
 print('THANK YOU VERY MUCH FOR SHOPPING AT NOTAREAL Supermarket! I HOPE YOU COME BACK SOON!')
 
 
