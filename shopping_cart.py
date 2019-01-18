@@ -72,7 +72,7 @@ def name_and_price(id):
 total_price=0
 for id in product_ids:
     name,price= name_and_price(id)
-    print('+ ',name, ' ', price)
+    print('+ ',name, ' ', '({})'.format(price))
     total_price+=price
 print('-----------------------------')
 print('THE TOTAL PRICE IS: $',round(total_price,2))
@@ -80,6 +80,6 @@ print('THE TAX RATE IS: $', round(.06*total_price,2))
 print('TOTAL AMOUNT OWNED: $', round(1.06*total_price,2))
 print('\n')
 print('-----------------------------')
-print('THANK YOU VERY MUCH FOR SHOPPING AT NOTAREAL Supermarket! I HOPE YOU COME BACK SOON!')
+print('THANK YOU VERY MUCH FOR SHOPPING AT NOTAREAL SUPERMARKET! I HOPE YOU COME BACK SOON!')
 
 
